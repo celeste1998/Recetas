@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostracion de compuertas lógicas</title>
+    <link rel="stylesheet" href="estiju.css">
+    <script tipe="textjavascript" src="compuerta.js"></script>
+</head>
+ <body onload="dibujar();evaluar();">
+   <div id="A">
+     <button onClick="a=boton(a);evaluar();"> A </button>
+   </div>
+   <div id="B">
+     <button onClick="b=boton(b);evaluar();"> B </button>
+   </div>
+   <div id="C">
+     <button onClick="c=boton(c);evaluar();"> C </button>
+   </div>
+   <div id="D">
+     <button onClick="d=boton(d);evaluar();"> D </button>
+   </div> 
+   <div id="linea1"></div>
+   <div id="linea2"></div>
+   <div id="linea3"></div>
+   <div id="linea4"></div>
+
+   <div id="cand1" class="compuerta">
+    <canvas id="and1" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="cand2" class="compuerta">
+    <canvas id="and2" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>	
+   <div id="cand3" class="compuerta">
+    <canvas id="and3" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+  </canvas>
+ </div>
+   <div id="cand4" class="compuerta">
+     <canvas id="and4" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+  </canvas>
+ </div>
+   <div id="cand5" class="compuerta">
+     <canvas id="and5" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+  </canvas>
+ </div>
+   <div id="cand6" class="compuerta">
+     <canvas id="and6" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+  </canvas>
+ </div>
+  
+  <div id="cable1" ></div>
+  <div id="cable2"></div>
+  <div id="cable3"></div>
+  <div id="cable4"></div>
+  <div id="cable5"></div>
+  <div id="cable6"></div>
+  <div id="cable7"></div>
+  <div id="cable8"></div>
+  <div id="cable9"></div>
+  <div id="cable10"></div>
+  <div id="cable11"></div>
+  <div id="cable12"></div>
+  <div id="cable13"></div>
+  <div id="cable14"></div>
+  <div id="cable15"></div>
+  <div id="cable16"></div>
+  <div id="cable17"></div>
+  <div id="cable18"></div>
+  <div id="cable19"></div>
+  <div id="cable20"></div>
+  <div id="cable21"></div>
+  <div id="cable22"></div>
+  <div id="cable23"></div>
+  <div id="cable24"></div>
+  
+  
+  <div id="negado1" class="compuerta">
+    <canvas id="neg1" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado2" class="compuerta">
+    <canvas id="neg2" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado3" class="compuerta">
+    <canvas id="neg3" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado4" class="compuerta">
+    <canvas id="neg4" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado5" class="compuerta">
+    <canvas id="neg5" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado6" class="compuerta">
+    <canvas id="neg6" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado7" class="compuerta">
+    <canvas id="neg7" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado" class="compuerta">
+    <canvas id="neg8" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado" class="compuerta">
+    <canvas id="neg9" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado" class="compuerta">
+    <canvas id="neg10" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado" class="compuerta">
+    <canvas id="neg11" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+   <div id="negado" class="compuerta">
+    <canvas id="neg12" width="60" height="50">
+     funcionabilidad no soportada por el navegador
+    </canvas>
+   </div>
+	
+
+  
+  <div id="ort">
+     <canvas id="or1" width="90" height="180">
+     funcionabilidad no soportada por el navegador  
+     </canvas>
+  </div>
+  
+  <div id="lin1"></div>
+  <div id="lin2"></div>
+  <div id="lin3"></div>
+  <div id="lin4"></div>
+  <div id="lin5"></div>
+  <div id="lin6"></div>
+  <div id="lin7"></div>
+  <div id="lin8"></div>
+  <div id="lin9"></div>
+  <div id="lin10"></div>
+  <div id="lin11"></div>
+  <div id="lin12"></div>
+  
+  
+  <div id="seglin1"></div>
+  <div id="seglin2"></div>
+  <div id="seglin3"></div>
+  <div id="seglin4"></div>
+  <div id="seglin5"></div>
+  <div id="seglin6"></div>
+  <div id="seglin7"></div>
+  <div id="seglin8"></div>
+  <div id="seglin9"></div>
+  <div id="seglin10"></div>
+  <div id="seglin11"></div>
+  <div id="seglin12"></div>
+  <div id="seglin13"></div>
+  <div id="seglin14"></div>
+  <div id="seglin15"></div>
+  <div id="seglin16"></div>
+  <div id="seglin17"></div>
+  <div id="seglin18"></div>
+  
+
+  <div id="led">
+     <canvas id="led1" width="50" height="50">
+     funcionabilidad no soportada por el navegador  
+     </canvas>
+  </div>
+  
+  <div id="linealed"></div>
+ </body>
+</html>
